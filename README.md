@@ -1,2 +1,16 @@
-# virtual-pet-simulator
-Desenvolver um simulador de pet virtual onde o usuário pode adotar um animal, cuidar dele (alimentar, brincar, limpar) e acompanhar seu status (fome, felicidade, saúde). O pet envelhece e seu comportamento varia conforme a espécie (cachorro, gato). O objetivo é manter o pet feliz e saudável.
+# Virtual Pet Simulator  
+
+## Descrição do Problema  
+Um simulador de pet virtual onde você pode adotar e cuidar de um animal.  
+
+## Casos de Uso  
+- Adotar um pet (cachorro ou gato).  
+- Alimentar, brincar e ver status.  
+- Salvar/carregar progresso.  
+
+## Diagrama de Classes  
+![Diagrama de Classes](diagrama_classes.png)  
+
+## Como Executar  
+```bash
+python main.py
