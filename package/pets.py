@@ -1,5 +1,5 @@
 from abc import ABC, abstractmethod
-from .inventory import Inventario  # Composição forte
+from .inventory import Inventario
 
 class Pet(ABC):
     def __init__(self, nome):
@@ -8,7 +8,7 @@ class Pet(ABC):
         self._fome = 50
         self._felicidade = 50
         self._saude = 70
-        self.inventario = Inventario()  # Composição forte (Pet NÃO existe sem Inventario)
+        self.inventario = Inventario()  # Composição forte
 
     @abstractmethod
     def brincar(self):
